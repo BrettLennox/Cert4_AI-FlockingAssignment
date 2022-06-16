@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601eebdb991c8e94e930efb7eed2164b, type: 3}
+  m_Name: RedCompositeBehaviour
+  m_EditorClassIdentifier: 
+  behaviours:
+  - behaviour: {fileID: 11400000, guid: 9638638620232b341a8af520fb1d5df8, type: 2}
+    weights: 10
+  - behaviour: {fileID: 11400000, guid: fd35b0beb867a134ea5d77fa7e3b14ad, type: 2}
+    weights: 1
+  - behaviour: {fileID: 11400000, guid: ade5a5f5f2eefe041b71665b2582f3d1, type: 2}
+    weights: 1
+  - behaviour: {fileID: 11400000, guid: 4db940bdffa137c4fbf42b6326edd3d2, type: 2}
+    weights: 0.1
+  - behaviour: {fileID: 11400000, guid: b0aecdd4973e562459cfd9f50bce1d22, type: 2}
+    weights: 1
